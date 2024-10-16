@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Button = ({onClick, disabled}) => {
     const style = {
+        display: 'flex',
+        marginTop: '20px',
         padding: '10px 20px',
         backgroundColor: disabled ? '#ccc' : '#007bff',
         color: '#fff',

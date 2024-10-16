@@ -3,6 +3,7 @@ import React from 'react'
 
 export const Alert = ({message}) => {
     const style = {
+        display: 'flex',
         padding: '10px',
         margin: '10px 0',
         border: '1px solid transparent',
